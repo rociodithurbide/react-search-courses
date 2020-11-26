@@ -1,0 +1,44 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #5225bd;
+}
+
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+  .inputText {
+    margin: 2rem 0;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .cardsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .card {
+      width: 300px;
+      background-color: #fff;
+
+      margin: 0 2rem 2rem 0;
+      border-radius: 5px;
+      .imgContent {
+        overflow: hidden;
+        text-align: center;
+        .cardImg {
+          width: 70%;
+        }
+      }
+      .cardTitle {
+        font-weight: bold;
+        margin: 2rem 0 1rem;
+        padding: 0 2rem;
+      }
+      .cardDesc {
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
